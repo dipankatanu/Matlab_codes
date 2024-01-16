@@ -1,8 +1,7 @@
 function Gravity_Centrality=GravityCentrality(el,type)
 %% !!! Attention!!!
-% https://www.sciencedirect.com/science/article/pii/S0020025522011914
-% A novel method to identify influential nodes in complex
-% networks based on gravity centrality
+% https://www.nature.com/articles/s41598-019-44930-9
+% Identifying influential spreaders by gravity model
 % formula: deg(i)*deg(j)/distance^2;
 % if distance is greater than average path length, replace it with that
 % This algorithm does not permit self loops
